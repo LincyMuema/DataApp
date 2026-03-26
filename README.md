@@ -1,6 +1,6 @@
 
 # Data Analytic Chart Page 
-A streamlined, full-stack web application that allows users to transform raw CSV data into meaningful visual insights. By uploading a file and selecting specific axes, the app automatically calculates statistical averages (means) and renders them in a clean, interactive bar chart.
+A web application that allows users to transform raw CSV data into meaningful visual insights. By uploading a file and selecting specific axes, the app automatically calculates statistical averages (means) and renders them in a clean, interactive bar chart.
 
 ## Features Overview
 * **Secure File Upload:** Upload `.csv` files directly to a managed backend directory.
@@ -80,10 +80,10 @@ A streamlined, full-stack web application that allows users to transform raw CSV
 ---
 
 ## Basic Usage
-1.  **Upload:** Click the "Upload CSV File" button to send your data to the server.
-2.  **Select:** Use the orange-bordered dropdowns to pick your X-Axis (e.g., *Gender*) and Y-Axis (e.g., *Age*).
-3.  **Generate:** Click "Generate Chart." The app will calculate the average Y-value for every unique X-category.
-4.  **Analyze:** View your results on the white-background chart card.
+1.  Click the "Upload CSV File" button to send your data to the server.
+2.  Use the  dropdowns to pick your X-Axis and Y-Axis.
+3.  Click "Generate Chart." The app will calculate the average Y-value for every unique X-category.
+4.  View your results on the chart card.
 
 ---
 
@@ -96,7 +96,6 @@ A streamlined, full-stack web application that allows users to transform raw CSV
 ## Troubleshooting
 * **"404 Not Found" on Upload:** Ensure your frontend is calling `http://127.0.0.1:8000/api/upload` (including the `/api` prefix).
 * **Chart shows axes but no bars:** Check that your Y-Axis column contains numbers. Text values in the Y-column are ignored for calculations.
-* **Blank Screen:** Ensure your inline styles are passed as objects `{{ color: "orange" }}` and not strings.
 
 
 ## License
