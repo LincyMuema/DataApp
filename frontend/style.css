@@ -1,0 +1,44 @@
+.title{
+    color: rgb(255, 165, 0);
+    font-size: 30px;
+    font-weight: bold
+}
+.box{
+     padding: 10px;
+      border-radius: 15px;
+      text-align: center;
+      max-width: 450px;
+      margin: 20px auto;
+      background-color: rgb(255, 255, 255)
+}
+.csv{
+    display: block; 
+    margin: 0 auto 15px auto;
+    padding: 10px;
+    color: rgb(255, 165, 0);
+    border: 1px dashed rgb(255, 165, 0); 
+    border-radius: 5px                                        
+}
+
+.button{
+    background-color: rgb(255, 165, 0);
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px
+}
+
+.label{
+    color: rgb(255, 165, 0);
+    margin-bottom: 8px; 
+    padding: 10px;
+}
+.selector{
+    width: 200px;          
+    padding: 10px;  
+    border-radius: 8px;     
+    border: 2px dashed rgb(255, 165, 0); 
+    background-color: white;
+    color: rgb(90, 90, 90);
+    outline: none
+}
